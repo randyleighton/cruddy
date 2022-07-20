@@ -17,5 +17,14 @@ let formValidation = () => {
     } else {
         console.log("success");
         msg.innerHTML = "";
+        acceptData();
     }
 };
+
+let data = {};
+
+let acceptData = () => {
+    data["text"] = input.value;
+    console.log("data")
+};
+
