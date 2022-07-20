@@ -40,3 +40,7 @@ let createPost = () => {
   </div>
     `;
 };
+
+let deletePost = (e) => {
+    e.parentElement.parentElement.remove();
+};
